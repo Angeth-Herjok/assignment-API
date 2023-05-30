@@ -9,9 +9,10 @@ ul li a{
 
 .navbar ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   background-color: #fff;
+  gap: 7.5%;
 }
 
 ul {
@@ -45,7 +46,7 @@ li a{
 
 .navbar ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .navbar li {
@@ -247,6 +248,8 @@ li a{
 .subscribe1{
   background-color: antiquewhite;
   height: 30vh;
+  width: 95%;
+  margin-left: 2%;
 }
 .email{
   padding: 15px 90px;
@@ -255,11 +258,14 @@ li a{
 }
 .footer-info{
   display: flex;
-  justify-content: space-between;
+  gap: 5%;
   background-color: black;
   color: #fff;
   font-family: 'Times New Roman', Times, serif;
   /* margin-top: 10%; */
+  font-size: small;
+  width: 95%;
+  margin-left: 2%;
   
 }
 .gadget{
@@ -276,7 +282,8 @@ li a{
 
 .deal{
   display: flex;
-  justify-content: space-between;
+  gap: 20%;
+  margin-left: 5%;
 }
 .button12{
   background-color: #000;
@@ -284,11 +291,14 @@ li a{
 }
 .imag1{
   background-color: lavender;
+  width: 92%;
+  margin-left: 5%;
   
 }
 .images1{
   display: flex;
-  justify-content: space-between;
+  gap: 2%;
+  
 }
 .add{
   padding: 15px 25px;
@@ -299,4 +309,97 @@ li a{
   padding: 15px 25px;
   background-color: #000;
   color: yellow;
+}
+.sign{
+  padding: 15px 25px;
+  color: #000;
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .navbar-collapse {
+    display: none;
+  }
+
+ 
+  .search-bar {
+    display: none;
+  }
+
+
+  .heading h2 {
+    font-size: 18px;
+  }
+
+  
+  .heading h5 {
+    font-size: 14px;
+  }
+
+  
+  .heading .laptop {
+    text-align: center;
+  }
+
+  .heading .buttons {
+    margin-top: 0;
+  }
+
+  
+  .heading .button {
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  
+  .heading-content {
+    margin-left: 0;
+  }
+
+  
+  .icons {
+    margin-top: 0;
+  }
+
+  
+  .icon-button {
+    padding: 25px 20px;
+  }
+
+  
+  .bigbox {
+    margin-left: 0;
+  }
+
+  
+  .para p {
+    font-size: 12px;
+  }
+
+  
+  .testimonials {
+    text-align: center;
+  }
+
+  
+  .subscribe {
+    width: 100%;
+  }
+
+  
+  .email input {
+    width: 100%;
+  }
 }
