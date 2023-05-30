@@ -7,7 +7,7 @@ ul li a{
   list-style: none;
 }
 
-.navbar {
+.navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +26,9 @@ li a{
     text-decoration: none;
     
   
+}
+.logo{
+  color: yellow;
 }
 
 .ion-icon {
