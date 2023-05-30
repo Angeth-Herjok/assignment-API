@@ -1,0 +1,270 @@
+body{
+
+}
+
+ul li a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  
+  
+}
+
+li a{
+  
+    color: #333;
+    text-decoration: none;
+    
+  
+}
+
+.ion-icon {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+ 
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin-bottom: 10px;
+}
+
+.navbar li a {
+  font-size: 16px;
+}
+
+.button2{
+  display: flex;
+  gap: 1rem;
+  margin-left: 3%;
+}
+.category{
+  padding: 20px 40px ;
+
+}
+.search{
+  padding: 20px 320px;
+
+}
+.box{
+  padding: 20px 20px;
+}
+
+.laptop{
+  width: 50%;
+}
+.heading{
+  display: flex;
+}
+
+
+.heading {
+  display: flex;
+  padding: 10px;
+  gap: 10%;
+  margin-top: 3%;
+  background-color: rgb(114, 93, 114);
+  width: 90%;
+  margin-left: 3%;
+}
+
+.heading h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading h5 {
+  font-size: 16px;
+  color: #666;
+}
+
+.heading .laptop {
+  width: 100%;
+  height: 50vh;
+  
+}
+
+.heading .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.heading .button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #000;
+  
+}
+.heading-content{
+  margin-left: 6%;
+  
+}
+.button3{
+  padding: 15px 30px;
+  border: solid 3px white;
+}
+.button4{
+  padding: 15px 30px;
+  background-color: yellow;
+
+}
+.icons{
+  margin-top: 6%;
+  margin-left: 3%;
+}
+.icon-button{
+  padding: 35px 25px;
+}
+.icon-button1{
+  padding: 35px 25px;
+  background-color: #000;
+  color: #fff;
+
+}
+.bigbox{
+  display: flex;
+  gap: 2%;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+.para{
+  display: flex;
+  gap: 7%;
+
+}
+.firstbox{
+  background-color: rgb(153, 177, 177);
+  width: 50%;
+  height: 50vh;
+}
+.second-box{
+  background-color: rgb(177, 195, 228);
+  width: 45%;
+  height: 50vh;
+}
+.lorem2{
+  margin-left: 55%;
+  font-size: x-small;
+  margin-top: 15%;
+}
+.lorem1{
+  margin-left: 30%;
+}
+.online{
+  color: #fff;
+}
+.ipsum1{
+  font-size: x-small;
+  color: #fff;
+  margin-top: 5;
+}
+.new{
+  color: #fff;
+  font-weight: bolder;
+}
+.pro{
+  color: #fff;
+  font-weight: bolder;
+}
+.percent{
+  color: yellow;
+}
+.heading-contents{
+  margin-top: 5%;
+  margin-left: 6%;
+}
+.design{
+  font-size: small;
+}
+.man{
+  width: 100%;
+  border-radius: 20px;
+}
+.man1{
+  color: black;
+  font-weight: bolder;
+}
+  
+.heading1{
+  display: flex;
+  gap: 25%;
+  margin-left: 7%;
+  margin-top: 5%;
+  
+  
+}
+.testimonials{
+  margin-left: 45%;
+}
+.firstlorem{
+  margin-left: 38%;
+}
+.line{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  
+}
+.part1{
+  background-color: aliceblue;
+  width: 92%;
+  margin-left: 3%;
+}
+.subscribe{
+  display: flex;
+  gap: 20%;
+  margin-left: 5%;
+  margin-top: 5%;
+ 
+}
+.subscribe1{
+  background-color: antiquewhite;
+  height: 30vh;
+}
+.email{
+  padding: 15px 90px;
+  background-color: rgb(243, 243, 22);
+  margin-top: 5%;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  /* margin-top: 10%; */
+  
+}
+.gadget{
+  color: yellow;
+}
+.news{
+  margin-top: 5%;
+}
+.musical{
+  margin-top: 5%;
+}
