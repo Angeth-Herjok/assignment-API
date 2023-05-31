@@ -22,7 +22,7 @@ function fetchProducts() {
   fetch("https://dummyjson.com/products")
     .then((response) => response.json())
     .then((data) => {
-      const returnedData = data.products.slice(0,8);
+      const returnedData = data.products.slice(3,11);
       generateProductCards(returnedData);
     });
 }
