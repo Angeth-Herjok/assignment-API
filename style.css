@@ -2,6 +2,7 @@ body{
 
 }
 
+
 ul li a{
   text-decoration: none;
   list-style: none;
@@ -11,8 +12,11 @@ ul li a{
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
-  background-color: #fff;
-  gap: 7.5%;
+  background-color: rgb(168, 153, 153);
+  gap: 6%;
+  font-size: 10px;
+  color: #fff;
+  width: 86%;
 }
 
 ul {
@@ -67,7 +71,7 @@ li a{
 
 }
 .search{
-  padding: 20px 320px;
+  padding: 20px 200px;
 
 }
 .box{
@@ -141,10 +145,10 @@ li a{
   margin-left: 3%;
 }
 .icon-button{
-  padding: 35px 25px;
+  padding: 25px 10px;
 }
 .icon-button1{
-  padding: 35px 25px;
+  padding: 25px 25px;
   background-color: #000;
   color: #fff;
 
@@ -402,4 +406,55 @@ li a{
   .email input {
     width: 100%;
   }
+  .search{
+    width: 10%;
+  }
+}
+
+
+
+
+
+
+/* index.js */
+#products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.product-card h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product-card .productPrice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card .productPrice p {
+  font-size: 14px;
+}
+
+.product-card .productPrice button {
+  background-color: yellow;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
